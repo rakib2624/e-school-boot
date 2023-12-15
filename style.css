@@ -1,7 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .sub-body {
     background-color: rgb(240, 255, 240);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.container-site-info, .container-course{
+    margin-top: 20px;
 }
 .container-navimg img {
     width: 200px;
@@ -14,12 +20,15 @@
 }
 .nav-item .active {
     border-radius: 20px;
-    background-color: lightgreen;
+    background-color:rgb(33, 181, 115);
 }
 .nav-pills {
     --bs-nav-pills-link-active-bg: rgb(33, 181, 115);
 }
-/* -------------------------------Starts the Slides section----------------------------------- */
+/* ----------------Starts the Slides section---------- */
+.container-slide {
+    text-align: justify;    
+}
 .slide-img {
     width: 100%;
 }
@@ -31,36 +40,84 @@
 }
 .slide-btn {
     margin-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 20px;
-    background-color: rgb(33, 181, 115);
 }
-/*---------------------------- Slide_info -----------------*/
-.container-site-info, .container-course {
-    margin-top: 20px;
-}
+/*---------------------------- Site_info -----------------*/
 .topic, .student, .students, .test-taken {
     background-color: rgb(240, 255, 240);
     width: 250px;
     height: 250px;
     border-radius: 10px;
     flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.topic:hover, .student:hover, .students:hover, .test-taken:hover {
+    background-color: white;
+    box-shadow: 13px 13px 50px #cbced1,
+                -13px -13px 50px #ffffff;;;
 }
 .topic img, .students img, .student img, .test-taken img {
     height: 100px;
     padding-bottom: 20px;
 }
-/* ---------------------------------Online Courese section--------------------- */
+/* --------------Online Courese section------------ */
 .container-course h4{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .container-course .card {
+    border:none;
     border-radius: 14px;
+    padding: 20px;
+    box-shadow: 13px 13px 50px #cbced1,
+                -13px -13px 50px #ffffff;;
 }
+
 .container-course .card-footer img{
     height: 20px;
+}
+.card-body,  .card-footer{
+    padding: 0;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+}
+/* -------------------here starts the testimonial section-------------- */
+.container-testimonial {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+.container-testimonial img {
+    height: 80px;
+}
+.testimonial h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* ----------------Footer section starts----------- */
+.sub-footer {
+    color: white;
+    background-color: rgb(40, 37, 49);
+}
+/* .footer-container {
+    padding-top: 50px;
+} */
+.box1 {
+    margin-top: 50px;
+    width: 360px;
+    text-align: justify;
+}
+.box2, .box3, .box4 {
+    width: 150px;
+    margin-top: 50px;
+}
+.box2 li, .box3 li, .box4 ul {
+    list-style: none;
+}
+.box5 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
