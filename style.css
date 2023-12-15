@@ -1,0 +1,66 @@
+.sub-body {
+    background-color: rgb(240, 255, 240);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-navimg img {
+    width: 200px;
+}
+.nav-item a {
+    color: gray;
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+}
+.nav-item .active {
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+.nav-pills {
+    --bs-nav-pills-link-active-bg: rgb(33, 181, 115);
+}
+/* -------------------------------Starts the Slides section----------------------------------- */
+.slide-img {
+    width: 100%;
+}
+.slide-red {
+    font-weight: 600;
+}
+.slide-gray{
+    margin-top: 30px;
+}
+.slide-btn {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(33, 181, 115);
+}
+/*---------------------------- Slide_info -----------------*/
+.container-site-info, .container-course {
+    margin-top: 20px;
+}
+.topic, .student, .students, .test-taken {
+    background-color: rgb(240, 255, 240);
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.topic img, .students img, .student img, .test-taken img {
+    height: 100px;
+    padding-bottom: 20px;
+}
+/* ---------------------------------Online Courese section--------------------- */
+.container-course h4{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container-course .card {
+    border-radius: 14px;
+}
+.container-course .card-footer img{
+    height: 20px;
+}
